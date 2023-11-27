@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{0039909d-2830-4515-a24a-dd270dbe0371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clock">
+      <UniqueIdentifier>{e35e53f4-7cec-4be9-9b52-545e1bb5e932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{52283e0e-d6b1-4fff-9634-0df839418bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{04ad4c27-698d-4c66-8292-c408436e10a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clock\Time">
+      <UniqueIdentifier>{b093b400-cf50-4ae8-8eb4-913980a7ca7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clock\Digits">
+      <UniqueIdentifier>{621e8c54-b37e-4520-b265-b434b4d585c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Clock</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="InnerSize.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Clock\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Digits.h">
+      <Filter>Clock\Digits</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
